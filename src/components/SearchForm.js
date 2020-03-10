@@ -2,7 +2,6 @@ import React, { useRef, useEffect } from "react";
 
 export default function SearchForm({ setSearchTerm }) {
   const searchValue = useRef("");
-
   useEffect(() => {
     searchValue.current.focus();
   }, []);
